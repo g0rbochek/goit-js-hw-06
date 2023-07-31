@@ -11,4 +11,7 @@ elements.input.addEventListener("input", handler);
 
 function handler(evt) {
   elements.span.textContent = evt.currentTarget.value.trim();
+  elements.span.textContent = evt.currentTarget.value
+    ? evt.currentTarget.value
+    : "Anonymous";
 }

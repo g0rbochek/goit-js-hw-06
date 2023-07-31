@@ -38,5 +38,4 @@ liItems.forEach(function (el) {
   const listEl = el.querySelectorAll("li");
   console.log("Categoty:", list.textContent);
   console.log("Elements", listEl.length);
-  console.log(`Elements:`, listEl.length);
 });

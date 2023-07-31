@@ -8,7 +8,7 @@ const ingredients = [
 ];
 const list = document.querySelector("#ingredients");
 
-const markup = ingredients.map((el) => {
+const markup = ingredients.forEach((el) => {
   const li = document.createElement("li");
   li.classList.add("item");
   li.textContent = el;

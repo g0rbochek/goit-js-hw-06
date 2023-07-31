@@ -26,3 +26,4 @@ const markup = images
 itemsEl.insertAdjacentHTML("beforeend", markup);
 
 console.log(markup);
+clg;
